@@ -5,6 +5,7 @@
 # returns how many steps it takes to reach 1.
 
 def hailstone(num):
+    """Takes an integer value and returns the number through a hailstone sequence"""
     x = 0
     while num != 1:
         if num % 2 == 0:
